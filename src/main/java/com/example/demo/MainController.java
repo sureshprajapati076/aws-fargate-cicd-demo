@@ -10,7 +10,7 @@ public class MainController {
 
     @GetMapping("/")
     public ResponseEntity<String> home(){
-        return ResponseEntity.ok("FUNNY HUH!!! ");
+        return ResponseEntity.ok("Changes Made Successfully!!! ");
     }
     @GetMapping("/demo")
     public ResponseEntity<String> demo(){
